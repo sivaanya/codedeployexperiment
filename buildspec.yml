@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo entered into build phase
+      - mvn clean packages
+  post_build:
+    commands:
+      - Build comopleted succeessfully
+artifacts:
+  files:
+    - target/awscodedeployproject.jar
+  discard-paths: yes
+
