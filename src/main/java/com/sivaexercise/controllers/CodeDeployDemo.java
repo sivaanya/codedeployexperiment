@@ -14,7 +14,7 @@ public class CodeDeployDemo {
     @GetMapping("/demo")
     public String demo(){
         log.debug("Code deploy Demo");
-        return "Successful Code Deploy";
+        return "Successful Code Deploy Updated";
     }
 
 
